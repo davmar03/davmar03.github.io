@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Gottem</title>
+
+</head>
+<body class="body">
+    <style>
+        .body {
+            background-color: #2F4F4F;
+            margin: 0;
+            border-right: 100px;
+            border-left: 100px;
+            border-color: white;
+        }
+
+        .img_top_left {
+            width: 90px;
+            height: 80px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+
+        .img_top_right {
+            width: 90px;
+            height: 80px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+
+        .line_break {
+            background-color: #559494;
+            width: 100%;
+            height: 50px;
+        }
+
+        .page_heading {
+            color: white;
+            text-align: center;
+            font-size: 45px;
+            letter-spacing: 10px;
+            font-family: Verdana;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #559494;
+        }
+
+            .topnav a {
+                float: left;
+                color: white;
+                text-align: center;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                padding-right: 10.6%;
+                padding-left: 10.6%;
+                text-decoration: none;
+                font-size: 20px;
+            }
+
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                .topnav a.active {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+
+        .product_display {
+            float: left;
+            width: 200px;
+            margin-left: 14.5%;
+            margin-top: 50px;
+            padding: 0px 14px 14px 14px;
+            background-color: #559494;
+            color: white;
+            text-align: center;
+            font-size: 17px
+        }
+
+        .img_product {
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+
+        .container {
+            margin-top: 30px;
+            width: 100%;
+        }
+
+        .grid_1,
+        .grid_2 {
+            display: inline;
+            float: left;
+            position: relative;
+            background-color: #243d3d;
+        }
+
+        .container .grid_1 {
+            width: 300px;
+            height: 255px;
+            margin-left: 190px;
+            padding-top: 120px;
+            padding-left: 110px;
+        }
+
+        .container .grid_2 {
+            width: 620px;
+            height: 375px;
+            padding-right: 130px;
+        }
+
+        .price_display {
+            background-color: transparent;
+        }
+
+        .graph {
+            float: right;
+        }
+
+        .price_up {
+            text-align: center;
+            padding: 5px 5px;
+            margin: 0;
+            color: lawngreen;
+            font-size: 20px;
+            font-family: Georgia;
+        }
+
+        .price_highlow {
+            text-align: center;
+            padding: 5px 5px;
+            margin: 0;
+            color: white;
+            font-size: 20px;
+            font-family: Georgia;
+        }
+
+        .price_down {
+            text-align: center;
+            padding: 5px 5px;
+            margin: 0;
+            color: red;
+            font-size: 20px;
+            font-family: Georgia;
+        }
+    </style>
+    <!--heading-->
+    <h1 class="page_heading">
+        Gottem
+    </h1>
+    <!--sunflower-->
+    <img class="img_top_left" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/109c592d-0417-4580-9e8c-bf6978d45bdc/d9eo7c0-6e3f495b-a386-4e9d-a5f8-e3a4a79a51fb.png/v1/fill/w_900,h_824,q_75,strp/sunflower_png_clearcut_stock_by_astoko-d9eo7c0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8xMDljNTkyZC0wNDE3LTQ1ODAtOWU4Yy1iZjY5NzhkNDViZGMvZDllbzdjMC02ZTNmNDk1Yi1hMzg2LTRlOWQtYTVmOC1lM2E0YTc5YTUxZmIucG5nIiwid2lkdGgiOiI8PTkwMCIsImhlaWdodCI6Ijw9ODI0In1dXX0.1_-HSLdw-uW33_sYI4--n7eo9be0U5CgFDDTqi3cnxk" />
+    <img class="img_top_right" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/109c592d-0417-4580-9e8c-bf6978d45bdc/d9eo7c0-6e3f495b-a386-4e9d-a5f8-e3a4a79a51fb.png/v1/fill/w_900,h_824,q_75,strp/sunflower_png_clearcut_stock_by_astoko-d9eo7c0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8xMDljNTkyZC0wNDE3LTQ1ODAtOWU4Yy1iZjY5NzhkNDViZGMvZDllbzdjMC02ZTNmNDk1Yi1hMzg2LTRlOWQtYTVmOC1lM2E0YTc5YTUxZmIucG5nIiwid2lkdGgiOiI8PTkwMCIsImhlaWdodCI6Ijw9ODI0In1dXX0.1_-HSLdw-uW33_sYI4--n7eo9be0U5CgFDDTqi3cnxk" />
+
+    <!--navigation-->
+    <div class="topnav">
+        <a href="Gottem.html">Home</a>
+        <a class="active" href="GottemProducts.html">Products</a>
+        <a href="GottemContact.html">Contact</a>
+        <a href="GottemAbout.html">About</a>
+    </div>
+    <div class="container">
+        <div class="grid_1">
+            <div class="price_display">
+                <p class="price_down">$7.00 ▼</p>
+                <p class="price_highlow">Weekly High $29.00</p>
+                <p class="price_highlow">Weekly Low $22.00</p>
+            </div>
+        </div>
+        <div class="grid_2">
+            <div class="graph"><iframe width="610" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vScmT_Knk8EaDgsiHyT640w3sLLeV7j57sXvB45BxsAxYEt6c-eJEFd-meJjP44ev5FGxwBnD_hhEfq/pubchart?oid=2007053370&amp;format=interactive"></iframe></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
